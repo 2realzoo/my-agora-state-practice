@@ -11,10 +11,10 @@ jobs:
       - name: Checkout source code.
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm install
+        run: yarn
         working-directory: ./my-agora-states-client
       - name: Build
-        run: npm run build
+        run: yarn build
         working-directory: ./my-agora-states-client
       - name: SHOW AWS CLI VERSION
         env:
