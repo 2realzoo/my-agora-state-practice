@@ -33,4 +33,4 @@ jobs:
             --region ap-northeast-2 \
             build s3://fe-81-2realzoo-s3 \
             --delete
-        working-directory: s3://fe-81-2realzoo-s3/my-agora-states-practice
+        working-directory: /client
